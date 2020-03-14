@@ -22,7 +22,7 @@ switch(c)
     break;
     case 3: printf("multiplication of a and b is: %d",a*b);
     break;
-    case 3: printf("reminder when we divide a by b is:%d",a%b);
+    case 4: printf("reminder when we divide a by b is:%d",a%b);
     default :
         printf("operator not valid");
 
