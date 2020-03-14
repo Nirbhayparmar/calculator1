@@ -11,6 +11,7 @@ scanf("%d",&b);
 printf("\nc=1:sum");
 printf("\nc=2:difference");
 printf("\nc=3:multiplication");
+printf("\nc=4:reminder(%)");
 printf("\nenter value of c:");
 scanf("%d",&c);
 switch(c)
@@ -21,6 +22,7 @@ switch(c)
     break;
     case 3: printf("multiplication of a and b is: %d",a*b);
     break;
+    case 4: printf("reminder when we divide a by b is:%d",a%b);
     default :
         printf("operator not valid");
 
